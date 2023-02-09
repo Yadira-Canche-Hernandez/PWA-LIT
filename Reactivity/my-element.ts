@@ -1,4 +1,3 @@
-//Paso3
 import {LitElement, html} from 'lit';
 import {map} from 'lit/directives/map.js';
 import {customElement, property} from 'lit/decorators.js';
@@ -22,4 +21,3 @@ export class MyElement extends LitElement {
     `;
   }
 }
-
