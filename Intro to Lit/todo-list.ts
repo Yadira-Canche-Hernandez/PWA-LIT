@@ -1,4 +1,4 @@
-//paso 8 
+//Paso 8 
 import {LitElement, html, css} from 'lit';
 import {customElement, state, property, query} from 'lit/decorators.js';
 
