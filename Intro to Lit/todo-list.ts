@@ -83,19 +83,3 @@ export class ToDoList extends LitElement {
   }
 }
 
-
-
-  toggleCompleted(item: ToDoItem) {
-    item.completed = !item.completed;
-    this.requestUpdate();
-  }
-
-  @query('#newitem')
-  input!: HTMLInputElement;
-
-  addToDo() {
-    this._listItems = [...this._listItems,
-        {text: this.input.value, completed: false}];
-    this.input.value = '';
-  }
-}
