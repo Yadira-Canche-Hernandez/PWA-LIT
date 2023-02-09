@@ -33,3 +33,4 @@ class MyElement extends LitElement {
     this.things = this.things.filter((_, i) => i !== index);
   }
 }
+
