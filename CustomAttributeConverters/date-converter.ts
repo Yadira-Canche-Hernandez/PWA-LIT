@@ -1,4 +1,3 @@
-
 import type {ComplexAttributeConverter} from 'lit';
 
 export const dateConverter = (locale: string): ComplexAttributeConverter<Date> => {
